@@ -1,0 +1,9 @@
+C:\челгу\4 курс\козько\vk_Api_groups\Test\bin\Debug\Tests.dll
+C:\челгу\4 курс\козько\vk_Api_groups\Test\bin\Debug\Tests.pdb
+C:\челгу\4 курс\козько\vk_Api_groups\Test\bin\Debug\HtmlAgilityPack.dll
+C:\челгу\4 курс\козько\vk_Api_groups\Test\bin\Debug\nunit.framework.dll
+C:\челгу\4 курс\козько\vk_Api_groups\Test\bin\Debug\vk_Api_groups.exe
+C:\челгу\4 курс\козько\vk_Api_groups\Test\bin\Debug\vk_Api_groups.pdb
+C:\челгу\4 курс\козько\vk_Api_groups\Test\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\челгу\4 курс\козько\vk_Api_groups\Test\obj\Debug\Tests.dll
+C:\челгу\4 курс\козько\vk_Api_groups\Test\obj\Debug\Tests.pdb

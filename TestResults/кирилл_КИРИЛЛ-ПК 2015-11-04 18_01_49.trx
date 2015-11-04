@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d966eaaa-8967-422b-ae1a-6c8c80f95478" name="кирилл@КИРИЛЛ-ПК 2015-11-04 18:01:49" runUser="кирилл-ПК\кирилл" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="3c2c809a-83fb-4143-8d38-dbe7e9a48065">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="кирилл_КИРИЛЛ-ПК 2015-11-04 18_01_49">
+      <DeploymentItem filename="C:\челгу\4 курс\козько\vk_Api_groups\Libs\HtmlAgilityPack.dll" />
+      <DeploymentItem filename="C:\челгу\4 курс\козько\vk_Api_groups\Libs\nunit.framework.dll" />
+      <DeploymentItem filename="C:\челгу\4 курс\козько\vk_Api_groups\vk_Api_groups\bin\Debug\vk_Api_groups.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+      </TestTypeSpecific>
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-11-04T18:01:49.6116019+06:00" queuing="2015-11-04T18:01:49.6436038+06:00" start="2015-11-04T18:01:49.6576046+06:00" finish="2015-11-04T18:01:58.0194664+06:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CounstructorTest" storage="c:\челгу\4 курс\козько\vk_api_groups\test\bin\debug\tests.dll" id="1db05d1e-6c05-8208-f6ee-d1e9856e2358">
+      <Execution id="1acafb22-b9d1-423c-b126-00272d65d53f" />
+      <TestMethod codeBase="C:/челгу/4 курс/козько/vk_Api_groups/Test/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.PostTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CounstructorTest" />
+    </UnitTest>
+    <UnitTest name="GetFreindsIdTest" storage="c:\челгу\4 курс\козько\vk_api_groups\test\bin\debug\tests.dll" id="e5cbd2d6-1f62-4c2b-36b1-02470eb0cfa6">
+      <Execution id="7ddc0446-9d5c-4dd3-9651-c37322b712cb" />
+      <TestMethod codeBase="C:/челгу/4 курс/козько/vk_Api_groups/Test/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GetterTopPostsTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetFreindsIdTest" />
+    </UnitTest>
+    <UnitTest name="PostToStringTest" storage="c:\челгу\4 курс\козько\vk_api_groups\test\bin\debug\tests.dll" id="52e199c6-73b5-4cad-d327-9f19e92ea054">
+      <Execution id="184a4f77-ec44-4035-9176-ce0701e2486b" />
+      <TestMethod codeBase="C:/челгу/4 курс/козько/vk_Api_groups/Test/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.PostTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PostToStringTest" />
+    </UnitTest>
+    <UnitTest name="GetFriendsPostTest" storage="c:\челгу\4 курс\козько\vk_api_groups\test\bin\debug\tests.dll" id="bb872ac8-c168-8648-265a-3395bb8b5371">
+      <Execution id="cc775d83-6aca-4c7c-b5a7-40046526aea4" />
+      <TestMethod codeBase="C:/челгу/4 курс/козько/vk_Api_groups/Test/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GetterTopPostsTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetFriendsPostTest" />
+    </UnitTest>
+    <UnitTest name="GetLikesFromHtmlTest" storage="c:\челгу\4 курс\козько\vk_api_groups\test\bin\debug\tests.dll" id="1633afd4-da87-0b20-e347-6103017dbe52">
+      <Execution id="a2e63c77-0818-4910-acac-9396b00b5327" />
+      <TestMethod codeBase="C:/челгу/4 курс/козько/vk_Api_groups/Test/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.GetterTopPostsTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetLikesFromHtmlTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1633afd4-da87-0b20-e347-6103017dbe52" executionId="a2e63c77-0818-4910-acac-9396b00b5327" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1db05d1e-6c05-8208-f6ee-d1e9856e2358" executionId="1acafb22-b9d1-423c-b126-00272d65d53f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52e199c6-73b5-4cad-d327-9f19e92ea054" executionId="184a4f77-ec44-4035-9176-ce0701e2486b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb872ac8-c168-8648-265a-3395bb8b5371" executionId="cc775d83-6aca-4c7c-b5a7-40046526aea4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e5cbd2d6-1f62-4c2b-36b1-02470eb0cfa6" executionId="7ddc0446-9d5c-4dd3-9651-c37322b712cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a2e63c77-0818-4910-acac-9396b00b5327" testId="1633afd4-da87-0b20-e347-6103017dbe52" testName="GetLikesFromHtmlTest" computerName="КИРИЛЛ-ПК" duration="00:00:04.2057264" startTime="2015-11-04T18:01:49.6716054+06:00" endTime="2015-11-04T18:01:54.0876467+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a2e63c77-0818-4910-acac-9396b00b5327">
+    </UnitTestResult>
+    <UnitTestResult executionId="1acafb22-b9d1-423c-b126-00272d65d53f" testId="1db05d1e-6c05-8208-f6ee-d1e9856e2358" testName="CounstructorTest" computerName="КИРИЛЛ-ПК" duration="00:00:00.0006115" startTime="2015-11-04T18:01:54.0896468+06:00" endTime="2015-11-04T18:01:54.0966472+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1acafb22-b9d1-423c-b126-00272d65d53f">
+    </UnitTestResult>
+    <UnitTestResult executionId="184a4f77-ec44-4035-9176-ce0701e2486b" testId="52e199c6-73b5-4cad-d327-9f19e92ea054" testName="PostToStringTest" computerName="КИРИЛЛ-ПК" duration="00:00:00.0003920" startTime="2015-11-04T18:01:54.0986473+06:00" endTime="2015-11-04T18:01:54.1046477+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="184a4f77-ec44-4035-9176-ce0701e2486b">
+    </UnitTestResult>
+    <UnitTestResult executionId="cc775d83-6aca-4c7c-b5a7-40046526aea4" testId="bb872ac8-c168-8648-265a-3395bb8b5371" testName="GetFriendsPostTest" computerName="КИРИЛЛ-ПК" duration="00:00:03.5924920" startTime="2015-11-04T18:01:54.1066478+06:00" endTime="2015-11-04T18:01:57.7034483+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc775d83-6aca-4c7c-b5a7-40046526aea4">
+    </UnitTestResult>
+    <UnitTestResult executionId="7ddc0446-9d5c-4dd3-9651-c37322b712cb" testId="e5cbd2d6-1f62-4c2b-36b1-02470eb0cfa6" testName="GetFreindsIdTest" computerName="КИРИЛЛ-ПК" duration="00:00:00.2576947" startTime="2015-11-04T18:01:57.7054484+06:00" endTime="2015-11-04T18:01:57.9754639+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ddc0446-9d5c-4dd3-9651-c37322b712cb">
+    </UnitTestResult>
+  </Results>
+</TestRun>
